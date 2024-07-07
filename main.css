@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer utilities{
+    .caption{
+        @apply py-2 px-2  border border-[#F44335] rounded-full cursor-pointer hover:bg-[#F44335] hover:text-white;
+    }
+    .curse-tag{
+        @apply py-2 px-3 border border-black rounded-full text-xl uppercase hover:bg-[#00FF84] cursor-pointer;
+    }
+    .nav_toggle{
+        @apply dark:text-white text-4xl cursor-pointer  gap-20 md:hidden;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
